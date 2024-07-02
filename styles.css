@@ -1,0 +1,244 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Footer */
+
+header,
+footer {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+/* Header */
+
+header {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header .container {
+    height: 5em;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+}
+
+header .links {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+header .right.side {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    align-items: center;
+    gap: 16px;
+}
+/* End of Header */
+
+/* Frames */
+main .frame {
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+main .frame .container {
+    height: 50vh;
+    width: 75vw;
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* First Frame */
+main .first.frame {
+    background-color: #1F2937;
+    align-items: center;
+}
+
+main .first .container {
+    flex-direction: row;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+main .first .side {
+    flex: 1;
+}
+
+main .first .left.side {
+    display: flex;
+    flex-direction: column;
+}
+
+main .first .left .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+main .first .left .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+main .first .left button {
+    display: block;
+    height: auto;
+    width: 10rem;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 9px;
+    padding: 8px;
+}
+
+main .first .right .images {
+    border: 4px dashed black;
+    height: 50vh;
+    width: 35vw;
+    object-fit: contain;
+}
+/* End of First Frame */
+
+/* Declarations for second and fourth frame */
+main .second.frame,
+main .fourth.frame {
+    background-color: #FFFFFF;
+}
+
+/* Second Frame */
+main .second .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .second .top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0px;
+    padding: 0px;
+}
+
+main .second .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+main .second .bottom .card {
+    border: 4px solid #3882F6;
+    padding: 75px 0;
+    border-radius: 24px;
+    flex-shrink: 1;
+}
+/* End of Second Frame */
+
+/* Third Frame */
+main .third.frame {
+    background-color: #E5E7EB;
+}
+
+main .third .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+main .third .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+main .third .quote-author {
+    align-self: flex-end;
+}
+/* End of Third Frame */
+
+/* Fourth Frame */
+main .fourth.frame {
+    height: 50vh;
+}
+
+main .fourth .box {
+    height: 25vh;
+    width: 85vw;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 48px;
+    color: #FFFFFF;
+    border-radius: 18px;
+}
+
+main .fourth .side {
+    flex: 1;
+}
+
+main .fourth .left .title {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+main .fourth .right.side {
+    display: flex;
+    justify-content: center;
+}
+
+main .fourth .right button {
+    flex-basis: 200px;
+    font-size: 24px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+/* End of Fourth Frame */
+
+/* Footer */
+footer {
+    color: #E5E7EB;
+    justify-content: center;
+    font-size: 18px;
+    padding: 16px;
+}
+/* End of Footer */
